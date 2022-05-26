@@ -1,6 +1,6 @@
 export class Vehicle {
 
-    static numberOfVehicles; // This variable will count the number of vehicles .
+    static numberOfVehicles = 0 // This variable will count the number of vehicles .
     // Defining the vehicles properties as variables.
     #name
     #manufactureCompany    
@@ -45,4 +45,3 @@ export class Vehicle {
     }
 
 } 
-
