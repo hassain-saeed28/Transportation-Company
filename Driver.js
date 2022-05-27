@@ -1,4 +1,4 @@
-import { Employee } from "./Employee";
+import { Employee } from "./Employee.js";
 
 export class Driver extends Employee {
 
