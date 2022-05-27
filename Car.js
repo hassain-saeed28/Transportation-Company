@@ -34,7 +34,7 @@ export class Car extends Vehicle {
 
     // function to increase the number of cars.
     static incrementNumberOfCars() {
-        this.numberOfCars++ 
+        Car.numberOfCars++ 
     }
 
 }
