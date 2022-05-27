@@ -1,3 +1,6 @@
 import { Vehicle } from "./Vehicle.js"
 import { Car } from "./Car.js"
 import { Plane } from "./Plane.js"
+import { Employee } from "./Employee.js"
+import { Driver } from "./Driver.js"
+import { Pilot } from "./Pilot.js"

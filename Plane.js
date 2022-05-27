@@ -1,4 +1,4 @@
-import { Vehicle } from "./Vehicle";
+import { Vehicle } from "./Vehicle.js";
 
 export class Plane extends Vehicle {
     static numberOfPlanes = 0 // static variable to count the number of planes.
@@ -33,7 +33,7 @@ export class Plane extends Vehicle {
     }
     
     // function to increase the number of planes.
-    incrementNumberOfPlanes(){
+    static incrementNumberOfPlanes(){
         Plane.numberOfPlanes++
     }
 }

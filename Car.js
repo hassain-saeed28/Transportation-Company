@@ -1,4 +1,4 @@
-import { Vehicle } from "./Vehicle"
+import { Vehicle } from "./Vehicle.js"
 
 export class Car extends Vehicle {
     static numberOfCars = 0 // static variable to count the number of cars.
