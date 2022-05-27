@@ -25,6 +25,6 @@ export class Driver extends Employee {
 
     // function to increase the number of drivers.
     static incrementNumberOfDrivers(){
-        Driver.incrementNumberOfDrivers++
+        Driver.numberOfDrivers++
     }
 }

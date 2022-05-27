@@ -5,7 +5,7 @@ import { Driver } from "./Driver.js"
 import { Pilot } from "./Pilot.js"
 import { Plane } from "./Plane.js"
 
-class Booking {
+export class Booking {
     static numberOfBookings = 0 // static variable to count the number of bookings.
     // Defining the booking properties.
     #dateOfBooking
